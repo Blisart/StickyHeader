@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import {DxDataGridModule, DxDrawerModule, DxListModule, DxScrollViewModule, DxToolbarModule} from 'devextreme-angular';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    DxToolbarModule, DxScrollViewModule, DxDrawerModule, DxListModule, DxDataGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]

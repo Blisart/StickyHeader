@@ -1,0 +1,22 @@
+::ng-deep .dx-toolbar {
+  background-color: rgba(191, 191, 191, .15);
+  padding: 5px 10px;
+}
+
+::ng-deep #content {
+  height: 100%;
+  padding: 10px 20px;
+}
+
+::ng-deep .dx-drawer-panel-content {
+  background-color: #03a9f4;
+}
+
+.content-box {
+  border: 1px solid #f9f9f9;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 160px;
+  color: #f9f9f9;
+}
